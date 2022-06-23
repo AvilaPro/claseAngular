@@ -1,0 +1,17 @@
+*{
+  color: white;
+}
+div{
+  padding: 1em 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: rgb(241, 144, 9) 3px solid;
+  border-radius: 20px;
+  margin-bottom: 1em;
+}
+div:hover{
+  cursor: pointer;
+  text-shadow: 0 3px 5px rgb(241, 144, 9);
+  box-shadow: 0 5px 5px rgb(241, 144, 9);
+}

@@ -1,0 +1,6 @@
+<div *ngFor="let peli of peliculas">
+  <div *ngIf="peliID == peli.id">
+    <h3>{{ peli.original_title }}</h3>
+    <p>{{ peli.overview }}</p>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<div *ngFor="let peli of peliculas">
+  <a routerLink="../description/{{ peli.id }}">
+    {{ peli.original_title }}
+  </a>
+</div>
